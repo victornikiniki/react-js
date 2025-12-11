@@ -8,6 +8,8 @@ import Buttons from './Buttons.jsx'
 import Student from './Student'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
+import Butt from './Butt.jsx'
+import ProfilePicture from './ProfilePicture.jsx'
 
 function App() {
 
@@ -40,6 +42,9 @@ function App() {
 
       {fruits.length > 0 && <List items={fruits} category="Fruits"/>} 
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
+
+      <Butt />
+      <ProfilePicture />
 
       <Footer />
 
